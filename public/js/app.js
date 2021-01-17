@@ -65996,13 +65996,43 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Header() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+    className: "masthead mt-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row justify-content-center"
+    className: "container h-100"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row h-100 align-items-center justify-content-center text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-10 align-self-end"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "text-center"
-  }, "Welcome To Coding Blind")));
+    className: "text-uppercase font-weight-bold",
+    style: {
+      color: "#ff0000"
+    }
+  }, "Coding Blind Tech"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    className: "divider my-4",
+    style: {
+      borderColor: "#ffffff",
+      color: "#ffffff"
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-8 align-self-baseline"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-white-75 font-weight-light mb-5",
+    style: {
+      fontSize: "25px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: {
+      fontSize: "115%",
+      fontFamily: "Merriweather Sans",
+      color: "#212529",
+      textShadow: "0 0 3px #ffffff, 0 0 5px #ff0000"
+    },
+    href: "pre-payment-form.html",
+    className: "btn btn-outline-secondary mt-4",
+    target: "_blank"
+  }, "Call to action"))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
